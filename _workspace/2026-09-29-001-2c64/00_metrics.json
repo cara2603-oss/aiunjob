@@ -1,0 +1,105 @@
+{
+  "version": "v2.0",
+  "genre": "essay",
+  "char_count": 3618,
+  "metrics": {
+    "comma_inclusion_rate": 0.5540540540540541,
+    "comma_usage_rate": 0.6486486486486487,
+    "ending_comma_rate": 0.4339622641509434,
+    "comma_segment_length": 7.368852459016393,
+    "conclusion_pivot_count": 0,
+    "safe_balance_count": 0,
+    "hanja_nominalizer_density": 0.0,
+    "lexical_diversity": 0.7330367074527252
+  },
+  "z_scores": {
+    "comma_inclusion_rate": 1.6760026155187446,
+    "comma_usage_rate": -0.6732186732186729,
+    "ending_comma_rate": 4.996341565809834,
+    "comma_segment_length": 1.4341341848058875,
+    "hanja_nominalizer_density": -2.0,
+    "lexical_diversity": 1.660734149054504
+  },
+  "risk_band": "low",
+  "risk_score": 3,
+  "evidence": {
+    "conclusion_pivots": [],
+    "safe_balances": []
+  },
+  "v2_metrics": {
+    "lexical_diversity_ttr": 0.7330367074527252,
+    "lexical_density": 0.08008898776418243,
+    "ending_diversity": 0.23880597014925373,
+    "normalisation_score": 0.12162162162162163,
+    "da_streak_rate": 5,
+    "inanimate_subject_rate": 0.0,
+    "by_passive_count": 0,
+    "double_passive_count": 0,
+    "pronoun_density": 0.0055617352614015575,
+    "deul_overuse_rate": 0.0,
+    "relative_clause_nesting": 16,
+    "have_make_literal_count": 0,
+    "double_particle_count": 0,
+    "progressive_aspect_rate": 0.05405405405405406,
+    "antithesis_count": 4
+  },
+  "v2_interference_index": {
+    "components": {
+      "T1_inanimate_subject_rate": 0.0,
+      "T2a_by_passive_per_1k": 0.0,
+      "T2b_double_passive_per_1k": 0.0,
+      "T3_pronoun_density": 0.0055617352614015575,
+      "T4_deul_overuse_rate": 0.0,
+      "T5_nested_clause_count": 16,
+      "T6_have_make_per_1k": 0.0,
+      "T7_double_particle_per_1k": 0.0,
+      "T8b_progressive_rate": 0.05405405405405406
+    },
+    "weighted_total": 0.8763009950996603,
+    "n_sentences": 74,
+    "n_chars": 3618
+  },
+  "v2_z_scores": {
+    "lexical_diversity_ttr": 1.412958843159065,
+    "lexical_density": -3.1415858890831077,
+    "ending_diversity": -2.5932835820895526,
+    "normalisation_score": -2.522522522522523,
+    "da_streak_rate": 7.666666666666666,
+    "inanimate_subject_rate": -1.6666666666666667,
+    "by_passive_count": -0.5,
+    "double_passive_count": -0.33333333333333337,
+    "pronoun_density": -0.6438264738598443,
+    "deul_overuse_rate": -0.625,
+    "relative_clause_nesting": 31.4,
+    "have_make_literal_count": -0.5,
+    "double_particle_count": -0.4285714285714286,
+    "progressive_aspect_rate": -0.5743243243243243,
+    "antithesis_count": null
+  },
+  "v2_baseline_warnings": [
+    "lexical_diversity_ttr",
+    "lexical_density",
+    "ending_diversity",
+    "normalisation_score",
+    "da_streak_rate",
+    "inanimate_subject_rate",
+    "by_passive_count",
+    "double_passive_count",
+    "pronoun_density",
+    "deul_overuse_rate",
+    "relative_clause_nesting",
+    "have_make_literal_count",
+    "double_particle_count",
+    "progressive_aspect_rate"
+  ],
+  "route_hint": "light",
+  "route_reason": "카운트형 어휘·피동 티 2건 · risk_band low — 이미 잘 쓴 글, 단일 콜·최소 파이프라인 권장",
+  "route_signals": {
+    "lexical_tell_count": 2,
+    "v26_tells": {
+      "피동진행(A-20)": 2
+    },
+    "risk_band": "low",
+    "char_count": 3618
+  }
+}
